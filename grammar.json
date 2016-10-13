@@ -1,0 +1,42 @@
+{
+  "origin": ["#start# #charming.capitalize# #home# in #hot# #neighborhood# location. #end# ($#price#)"],
+  "start": [
+    "Location, location, location!",
+    "So many possibilities!",
+    "Great opportunity!"
+  ],
+  "charming": [
+    "charming",
+    "beautiful",
+    "lovely"
+  ],
+  "home": [
+    "home",
+    "bungalow",
+    "ranch"
+  ],
+  "hot": [
+    "hot",
+    "desirable",
+    "close-in",
+    "growing",
+    "convenient",
+    "highly desirable"
+  ],
+  "neighborhood": [
+    "inner SE",
+    "Sunnyside",
+    "Woodstock",
+    "Foster-Powell",
+    "Alberta",
+    "Brooklyn",
+    "Laurelhurst"
+  ],
+  "end": [
+    "Has great bones!",
+    "Great project for the Buyer with vision.",
+    "Bring your tool belt and HURRY! This won't last long.",
+    "Tremendous potential & an add'l unfin. basement awaits your imagination!"
+  ],
+  "price": ["600k","650k","700k","750k","800k","850k","900k","950k"]
+}
