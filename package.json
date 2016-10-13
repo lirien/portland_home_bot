@@ -1,0 +1,11 @@
+{
+  "name": "portland_home_bot",
+  "version": "1.0.0",
+  "description": "Location, location, location!",
+  "main": "index.js",
+  "author": "Erin Sullivan <kittylily@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tracery-grammar": "^2.7.2"
+  }
+}
