@@ -1,7 +1,6 @@
 const tracery = require('tracery-grammar');
-const { readFileSync } = require('fs');
+const json = require('./grammar.json');
 
-let json = JSON.parse(readFileSync('./grammar.json'));
 let grammar = tracery.createGrammar(json);
 
 grammar.addModifiers(tracery.baseEngModifiers);
