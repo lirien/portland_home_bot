@@ -1,16 +1,60 @@
 {
-  "origin": ["#start# #charming.capitalize# #home# in #hot# #neighborhood# #location-term#. #end# ($#price#)"],
-  "start": [
+  "origin": ["#description# #end# ($#price#)"],
+  "description": [
+    "#start# #home# in #hot# #neighborhood# #location-term##period#",
+    "#start# #era# #home# in #hot# #neighborhood# #location-term##period#",
+    "#exclamation# #positive-adjective.capitalize# #neighborhood# #location-term# for this #charming# #bedrooms# #home##period#"
+  ],
+  "bedrooms": [
+    "2 bed 1 bath",
+    "3 bed 1.5 bath",
+    "1 bed 1 bath",
+    "748sqft",
+    "850sqft",
+    "1120sqft",
+    "980sqft",
+    "1270sqft"
+  ],
+  "exclamation": [
     "Location, location, location!",
-    "So many possibilities!",
-    "#positive-adjective.capitalize# opportunity!",
-    "#positive-adjective.capitalize# work in progress."
+    "#positive-adjective.capitalize# #fixer##period#",
+    "Diamond in the rough#period#"
+  ],
+  "start": [
+    "#exclamation# #charming.capitalize#",
+    "#several.capitalize# potential for this #charming#",
+    "#many.capitalize# possibilities for this #charming#"
+  ],
+  "potential": [
+    "potential",
+    "possibilities"
+  ],
+  "many": [
+    "so many",
+    "countless"
+  ],
+  "several": [
+    "unlimited",
+    "so much",
+    "endless"
+  ],
+  "fixer": [
+    "opportunity",
+    "work in progress"
+  ],
+  "period": [
+    ".", ".", ".",
+    "!", "!", "!", "!", "!",
+    "!!!"
   ],
   "positive-adjective": [
     "amazing",
     "great",
+    "great",
+    "great",
     "incredible",
-    "once in a lifetime"
+    "incredible",
+    "tremendous"
   ],
   "location-term": [
     "location",
@@ -22,7 +66,15 @@
     "beautiful",
     "lovely",
     "delightful",
-    "hard to find"
+    "inviting",
+    "cute",
+    "hard to find",
+    "rare"
+  ],
+  "era": [
+    "turn of the century",
+    "mid-century",
+    "Victorian"
   ],
   "home": [
     "home",
@@ -31,11 +83,19 @@
   ],
   "hot": [
     "hot",
-    "desirable",
     "close-in",
     "growing",
     "convenient",
-    "highly desirable"
+    "#very#desirable",
+    "#very#sought-after",
+    "charming",
+    "up-and-coming"
+  ],
+  "very": [
+    "", "", "", "", "",
+    "highly ",
+    "very ",
+    "extremely "
   ],
   "neighborhood": [
     "inner SE",
@@ -44,17 +104,51 @@
     "Foster-Powell",
     "Alberta",
     "Brooklyn",
-    "Laurelhurst"
+    "Laurelhurst",
+    "Creston",
+    "Reed",
+    "Richmond",
+    "Mount Scott",
+    "Sellwood",
+    "Buckman",
+    "Kerns",
+    "Tabor",
+    "Montavilla",
+    "Hollywood",
+    "Sullivan's",
+    "Irvington",
+    "Concordia",
+    "Woodlawn",
+    "Eastmoreland",
+    "Alameda",
+    "Hawthorne"
+  ],
+  "creativity": [
+    "creativity",
+    "imagination",
+    "vision"
+  ],
+  "tlc": [
+    "#creativity#",
+    "TLC"
+  ],
+  "hurry": [
+    "HURRY",
+    "Act fast",
+    "Move fast"
+  ],
+  "project": [
+    "#fixer#",
+    "project"
   ],
   "end": [
-    "Has great bones!",
-    "Great project for the buyer with vision.",
-    "Bring your tool belt and your creativity!",
-    "HURRY! This won't last long.",
-    "Tremendous potential!",
-    "Awaits your imagination!",
-    "Add your personal touch.",
-    "Boom!"
+    "Has #positive-adjective# bones#period#",
+    "#positive-adjective.capitalize# #project# for the buyer with #creativity##period#",
+    "Bring your tool belt and your #creativity##period#",
+    "#hurry#! This won't last long#period#",
+    "#positive-adjective.capitalize# potential#period#",
+    "Awaits your #tlc##period#",
+    "Add your personal touch#period#"
   ],
   "price": ["600k","650k","700k","750k","800k","850k","900k","950k"]
 }
