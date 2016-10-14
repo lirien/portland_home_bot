@@ -20,7 +20,9 @@
   "charming": [
     "charming",
     "beautiful",
-    "lovely"
+    "lovely",
+    "delightful",
+    "hard to find"
   ],
   "home": [
     "home",
@@ -46,9 +48,13 @@
   ],
   "end": [
     "Has great bones!",
-    "Great project for the Buyer with vision.",
-    "Bring your tool belt and HURRY! This won't last long.",
-    "Tremendous potential & an add'l unfin. basement awaits your imagination!"
+    "Great project for the buyer with vision.",
+    "Bring your tool belt and your creativity!",
+    "HURRY! This won't last long.",
+    "Tremendous potential!",
+    "Awaits your imagination!",
+    "Add your personal touch.",
+    "Boom!"
   ],
   "price": ["600k","650k","700k","750k","800k","850k","900k","950k"]
 }
