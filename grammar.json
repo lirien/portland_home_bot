@@ -1,5 +1,5 @@
 {
-  "origin": ["#start# #charming.capitalize# #home# in #hot# #neighborhood# location. #end# ($#price#)"],
+  "origin": ["#start# #charming.capitalize# #home# in #hot# #neighborhood# #location-term#. #end# ($#price#)"],
   "start": [
     "Location, location, location!",
     "So many possibilities!",
@@ -11,6 +11,11 @@
     "Great",
     "Incredible",
     "Once in a lifetime"
+  ],
+  "location-term": [
+    "location",
+    "neighborhood",
+    "area"
   ],
   "charming": [
     "charming",
