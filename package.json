@@ -6,7 +6,8 @@
   "author": "Erin Sullivan <kittylily@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "tracery-grammar": "^2.7.2"
+    "tracery-grammar": "^2.7.2",
+    "twitter": "^1.4.0"
   },
   "scripts": {
     "start": "node index.js"
