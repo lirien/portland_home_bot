@@ -3,7 +3,14 @@
   "start": [
     "Location, location, location!",
     "So many possibilities!",
-    "Great opportunity!"
+    "#positive-adjective# opportunity!",
+    "#positive-adjective# work in progress."
+  ],
+  "positive-adjective": [
+    "Amazing",
+    "Great",
+    "Incredible",
+    "Once in a lifetime"
   ],
   "charming": [
     "charming",
