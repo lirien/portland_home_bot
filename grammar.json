@@ -3,14 +3,14 @@
   "start": [
     "Location, location, location!",
     "So many possibilities!",
-    "#positive-adjective# opportunity!",
-    "#positive-adjective# work in progress."
+    "#positive-adjective.capitalize# opportunity!",
+    "#positive-adjective.capitalize# work in progress."
   ],
   "positive-adjective": [
-    "Amazing",
-    "Great",
-    "Incredible",
-    "Once in a lifetime"
+    "amazing",
+    "great",
+    "incredible",
+    "once in a lifetime"
   ],
   "location-term": [
     "location",
