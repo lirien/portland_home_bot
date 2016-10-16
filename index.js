@@ -12,6 +12,10 @@ let images = fs.readdirSync('./images');
 let path = './images/'.concat(images[Math.floor(Math.random() * images.length)])
 let image = fs.readFileSync(path);
 
+let dt = new Date();
+let utcDate = dt.toUTCString();
+console.log(utcDate)
+
 client.post('media/upload', {media: image}, function(error, media, response) {
   if (!error) {
     console.log(media);
