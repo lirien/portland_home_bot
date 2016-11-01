@@ -1,6 +1,6 @@
 const Tracery = require('tracery-grammar');
 const Twitter = require('twitter');
-const fs = require('fs')
+const fs = require('fs');
 const config = require('./config.json')
 const json = require('./grammar.json');
 
@@ -9,12 +9,12 @@ grammar.addModifiers(Tracery.baseEngModifiers);
 
 let client = new Twitter(config);
 let images = fs.readdirSync('./images');
-let path = './images/'.concat(images[Math.floor(Math.random() * images.length)])
+let path = './images/'.concat(images[Math.floor(Math.random() * images.length)]);
 let image = fs.readFileSync(path);
 
 let dt = new Date();
 let utcDate = dt.toUTCString();
-console.log(utcDate)
+console.log(utcDate);
 
 client.post('media/upload', {media: image}, function(error, media, response) {
   if (!error) {
